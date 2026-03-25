@@ -106,7 +106,7 @@ class _CategorizerPageState extends State<CategorizerPage> {
       
       try {
         final response = await http.post(
-          Uri.parse('http://127.0.0.1:8000/process_link'),
+          Uri.parse('https://link-categorizer-backend.onrender.com/process_link'),
           headers: {'Content-Type': 'application/json'},
           body: jsonEncode({
             "url": url,
