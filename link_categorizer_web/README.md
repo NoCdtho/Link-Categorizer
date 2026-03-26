@@ -1,16 +1,15 @@
-# link_categorizer_web
+# Overview
 
-A new Flutter project.
+The URLHUB is designed to streamline the process of managing large volumes of links. It combines a responsive Flutter web interface with a high-performance FastAPI backend to provide fast, scalable, and structured link classification.
 
-## Getting Started
+# Architecture
+Frontend: Flutter (Web)
+Backend: FastAPI (Python)
+Render: Deployed
+netlify: Hosted 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Features:
+    Automated Link Classification
+        Categorizes URLs based on domain analysis, keywords, or metadata.
+    Manual Categorization
+        Allows users to modify or assign custom categories.
